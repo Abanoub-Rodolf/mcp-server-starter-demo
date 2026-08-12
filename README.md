@@ -9,7 +9,7 @@ It does not read files, call the network, spawn subprocesses, or accept secrets.
 
 ## Run it
 
-Requires Node.js 20 or newer.
+Requires Node.js 22 or newer.
 
 ```bash
 npm install
@@ -28,7 +28,7 @@ This is a public teaching demo, not the paid production starter. It intentionall
 - rate limiting and DNS rebinding protection;
 - structured redacted logging;
 - typed safe error handling;
-- the 60-test transport and security suite;
+- the 72-test transport and security suite;
 - three production client configurations and saved scan proof.
 
 Those hardening layers are part of **MCP Server Starter Pro**, which is in final storefront preparation. Follow [ThynkQ's MCP work](https://thynkq.com/products/mcp-scan) for the release.
