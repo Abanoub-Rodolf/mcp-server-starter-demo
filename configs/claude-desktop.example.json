@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "thynkq-starter-demo": {
+      "command": "node",
+      "args": ["/absolute/path/to/mcp-server-starter-demo/dist/index.js"]
+    }
+  }
+}
