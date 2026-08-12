@@ -35,6 +35,10 @@ Those hardening layers are part of **MCP Server Starter Pro**, which is in final
 
 If you need a human review of a production MCP deployment, see [ThynkQ's MCP Risk Review](https://thynkq.com/services/mcp-risk-review).
 
+## Related free project
+
+Before connecting a third-party MCP server, run the free [MCP Security Review Preview](https://github.com/Abanoub-Rodolf/mcp-security-review-preview). It is a limited Claude Code preflight that keeps raw scanner evidence outside model-facing output.
+
 ## Security model
 
 The client launches this process and communicates over stdin/stdout. All operational logging goes to stderr so stdout remains reserved for JSON-RPC. Both example tools are pure functions with bounded inputs.
