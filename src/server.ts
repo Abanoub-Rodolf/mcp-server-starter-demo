@@ -5,7 +5,7 @@ import { echo, textStats } from './tools.js';
 export function createServer(): McpServer {
   const server = new McpServer({
     name: 'mcp-server-starter-demo',
-    version: '1.0.0'
+    version: '1.0.1'
   });
 
   server.registerTool(

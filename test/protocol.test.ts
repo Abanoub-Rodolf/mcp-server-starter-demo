@@ -24,6 +24,11 @@ describe('MCP protocol', () => {
       await server.close();
     });
 
+    expect(client.getServerVersion()).toEqual({
+      name: 'mcp-server-starter-demo',
+      version: '1.0.1'
+    });
+
     const listed = await client.listTools();
     expect(listed.tools.map((tool) => tool.name).sort()).toEqual(['echo', 'text_stats']);
 

@@ -1,6 +1,6 @@
 {
   "name": "mcp-server-starter-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Free stdio-only MCP server demo from ThynkQ with two validated pure tools.",
   "type": "module",
