@@ -39,6 +39,8 @@ If you need a human review of a production MCP deployment, see [ThynkQ's MCP Ris
 
 Before connecting a third-party MCP server, run the free [MCP Security Review Preview](https://github.com/Abanoub-Rodolf/mcp-security-review-preview). It is a limited Claude Code preflight that keeps raw scanner evidence outside model-facing output.
 
+Also free: the [mcp-scan](https://github.com/Abanoub-Rodolf/mcp-scan) security scanner, and the [MCP Security Evidence Redactor](https://github.com/Abanoub-Rodolf/mcp-security-evidence-redactor) for safe severity-count summaries of scan output.
+
 ## Security model
 
 The client launches this process and communicates over stdin/stdout. All operational logging goes to stderr so stdout remains reserved for JSON-RPC. Both example tools are pure functions with bounded inputs.
